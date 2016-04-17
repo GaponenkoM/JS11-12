@@ -1,0 +1,86 @@
+﻿body{
+   margin: 0 auto;
+}
+
+	/*BACKGROUND*/
+.band{ 
+	width: 1440px;
+	height: 806px;
+	background-color: #000000;
+}
+
+.fond{
+	padding-top: 5px;
+	width: 1440px;
+	height: 797px;
+	background-color: #eeeeee;
+	border-radius: 0 0 4px 4px;
+}
+
+	/*WHITE BLOCK*/
+.centre{
+	margin: 0 auto;
+	padding: 50px;
+	width: 412px;
+	height: 650px;
+	background-color: white;
+	color: black;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(145,143,143,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(145,143,143,1);
+	box-shadow: 0px 0px 5px 0px rgba(145,143,143,1);
+	font-family: 'Times New Roman', serif;
+}
+
+	/*ELEMENTS OF THE WHITE BLOCK*/
+.picture{
+	height: 240px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #7a7a7a;  
+} 
+
+.box1,
+.box2{
+	height: 130px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #7a7a7a;  
+} 
+
+.box3{
+	height: 110px;  
+}
+
+	/*FOTO*/
+.foto{
+	display: block; 
+	margin: 0 auto;
+	width: 110px;
+	border-radius: 10px;  
+}
+
+	/*ELEMENTS STYLE*/
+.reference{
+	color: blue;
+}
+
+.indent{
+	margin-bottom: 30px;
+}  
+
+h1{
+	text-align: center;
+	font-size: 25px;
+}
+  
+p{
+	padding-left: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li{
+	margin-bottom: 5px;
+}
+  
+
+
+

@@ -1,0 +1,83 @@
+﻿	/*CAROUSEL*/
+body{
+	background-color: whitesmoke;
+}
+
+h1{
+	margin-bottom: 8px;
+    color: #4e443c;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+}
+	
+.myCarousel{
+	width: 452px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.myCarousel__list{
+	width: 450px;
+	height: 300px;
+	border: 1px transparent solid;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+	border: 10px solid #b7d1de;
+	border-radius: 10px;
+}
+.myCarousel__item{
+	display: inline-block;
+	width: 100%;
+	position: absolute;
+	transition: 1.5s;
+	left: 0;
+	opacity: 1;
+}
+.myCarousel__item--hide{
+	opacity: 0;
+	left: -450px;
+	border-radius: 20px;
+}
+.myCarousel__button{
+	width: 135px;
+	margin: 0 auto;
+	padding: 10px 0 30px 0;
+}
+.myCarousel__button--left,
+.myCarousel__button--right{
+	width: 65px;
+	height: 25px;
+	background: #b7d1de;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #4e443c;
+}
+	/*LINK TO TEMPLATE*/
+.reference{
+	width: 300px;
+	height: 40px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: pink;
+	text-align: center;
+}
+.reference__link{
+	padding: 11px 118px;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 15px;
+	font-family: 'Tahoma';
+	color: #fff;
+	line-height: 40px;
+}
+
+.reference__link:hover{
+	background: #b7d1de;
+	border-radius: 10px;
+}
+
+	
+	
